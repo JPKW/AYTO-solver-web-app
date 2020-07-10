@@ -39,7 +39,7 @@ def permute(a, l, r):
                     if a[i] == lr[i]: ix = ix + 1
                 if ix != ir:
                     checker = False
-        if checker == True: print(a)
+        if checker == True: return(a)
     else: 
         for i in range(l, r + 1): 
             a[l], a[i] = a[i], a[l] 
