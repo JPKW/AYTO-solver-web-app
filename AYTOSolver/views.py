@@ -17,5 +17,16 @@ def index(request):
     )
 
 
-def test(request):
-    return HttpResponse("Hello, Testo!")
+def about(request):
+    now = datetime.now()
+
+    return render(
+        request,
+        "AYTOSolver/about.html",  # Relative path from the 'templates' folder to the template file
+        # "about.html", # Use this code for VS 2017 15.7 and earlier
+        {
+            'title' : "Hello Django",
+            'message' : "Hello Django!",
+            'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
+        }
+    )

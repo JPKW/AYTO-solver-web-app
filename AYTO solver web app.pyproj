@@ -46,6 +46,8 @@
   <ItemGroup>
     <Content Include="AYTOSolver\static\site.css" />
     <Content Include="AYTOSolver\templates\AYTOSolver\index.html" />
+    <Content Include="AYTOSolver\templates\AYTOSolver\about.html" />
+    <Content Include="AYTOSolver\templates\AYTOSolver\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
