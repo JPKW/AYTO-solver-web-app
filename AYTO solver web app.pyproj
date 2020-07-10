@@ -34,6 +34,9 @@
     <Compile Include="AYTOSolver\apps.py" />
     <Compile Include="AYTOSolver\migrations\__init__.py" />
     <Compile Include="AYTOSolver\models.py" />
+    <Compile Include="AYTOSolver\solver.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AYTOSolver\tests.py" />
     <Compile Include="AYTOSolver\views.py" />
     <Compile Include="AYTOSolver\__init__.py" />
