@@ -5,4 +5,5 @@ import AYTOSolver.views
 urlpatterns = [
     url(r'^$', AYTOSolver.views.index, name='index'),
     url(r'^home$', AYTOSolver.views.index, name='home'),
+    url(r'^test$', AYTOSolver.views.test, name='test'),
 ]
