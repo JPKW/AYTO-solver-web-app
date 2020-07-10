@@ -44,12 +44,14 @@
     <Compile Include="AYTO_solver_web_app\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AYTOSolver\static\site.css" />
     <Content Include="AYTOSolver\templates\AYTOSolver\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AYTOSolver\" />
     <Folder Include="AYTOSolver\migrations\" />
+    <Folder Include="AYTOSolver\static\" />
     <Folder Include="AYTOSolver\templates\" />
     <Folder Include="AYTOSolver\templates\AYTOSolver\" />
     <Folder Include="AYTO_solver_web_app\" />
