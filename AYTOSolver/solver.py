@@ -55,7 +55,8 @@ def permute(a, l, r):
         for i in range(l, r + 1): 
             a[l], a[i] = a[i], a[l] 
             permute(a, l + 1, r) 
-            a[l], a[i] = a[i], a[l] 
+            a[l], a[i] = a[i], a[l]
+
 permute(a, 0, n-1)
   
 #Coded by Joerg Wood
